@@ -1,0 +1,15 @@
+.jumbotron {
+    margin-top: 60px!important;
+    margin-bottom: 60px!important;
+    text-align: center;
+    background-color: #EBFFD4!important;
+    width: 500px;
+    height: 300px;
+}
+
+.list-group-item {
+    margin: 0 auto;
+    text-align: center!important;
+    font-family: 'Roboto', sans-serif;
+    width: 500px!important;
+}
