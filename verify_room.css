@@ -1,0 +1,15 @@
+h1 {
+    text-align: center
+    color: #9932CC
+}
+
+input {
+    text-align: right;
+    size: 40;
+}
+
+fieldset { 
+  margin-left: 150%;
+  top: 150%;
+  width: 400px;
+}

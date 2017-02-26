@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+    <head>
+        <script type="text/javascript" src="room_data.js"></script>
+        <title>pickRoom.html</title>
+        <meta charset = "UTO-8" />
+        <link rel="stylesheet" href="verify_room.css" type="text/css">
+    </head>
+    <body>
+        <h1 style="font-size:150%; color:#9932CC; text-align:center">Enter Your Room</h1>
+        <form>
+            <fieldset style="width:410px;margin: 0px auto;">
+                <p>
+                    <label type  = "text/css" >Room number</label>
+                    <input type  = "text"
+                           id    = "roomVerify" />
+                </p>
+                <p>
+                    <label>Password</label>
+                    <input type  = "password"
+                           id    = "pwdVerify" />
+                </p>
+            </fieldset>
+            <a href="startPage.html" class="btn btn-default">Enter!</a>
+        </form>
+        
+        <script type="text/javascript" src="room_data">
+        
+        function Verify () {
+            var myRoom = global.localStorage.getItem("roomVerify");
+            var myPwd  = global.localStorage.getItem("pwdVerify");
+            
+            if (myRoom == global.localStorage.getItem("roomNum")) {
+                if (myPwd == global.localStorage.getItem("roomPwd")) {
+                   alert("yeah");
+                }
+            }
+            else {
+                alert("loser");
+            }
+        }  
+        Verify.call();
+        </script>
+    </body>
+</html>
