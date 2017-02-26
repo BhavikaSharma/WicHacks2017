@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>RPS Online</title>
+	<!--<link rel="stylesheet" href="css/main.css">-->
+    </head>
+    <body>
+
+        <div class="wrapper">
+            <ul id="answers">
+	    </ul>
+            <div class="row">
+                <button id="rock">Rock</button>
+                <button id="paper">Paper</button>
+                <button id="scissors">Scissors</button>
+            </div>
+            <div class="row">
+                <form id="chat_form">
+                    <input id="chat_input"/>
+                    <button>Send</button>
+                </form>
+            </div>
+        </div>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/main.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    </body>
+</html>
