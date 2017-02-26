@@ -7,29 +7,35 @@
         <link rel="stylesheet" href="verify_room.css" type="text/css">
     </head>
     <body>
-        <h1 style="font-size:150%; color:#9932CC; text-align:center">Enter Your Room</h1>
+        <br />
+        <br />
+        <h1 style="font-size:300%; color:#9932CC; text-align:center">Enter Your Room</h1>
         <form>
             <fieldset style="width:410px;margin: 0px auto;">
                 <p>
-                    <label type  = "text/css" >Room number</label>
+                    <label style="color=Chocolate;">Room:</label>
                     <input type  = "text"
-                           id    = "roomVerify" />
-                </p>
-                <p>
-                    <label>Password</label>
+                           id    = "roomVerify" 
+                           class = "leftAlignText" />
+                    <br />
+                    <label style="color=Chocolate;">Password:</label>
                     <input type  = "password"
-                           id    = "pwdVerify" />
+                           id    = "pwdVerify"
+                           class = "leftAlignText" />
                 </p>
             </fieldset>
-            <a href="startPage.html" class="btn btn-default">Enter!</a>
+            
         </form>
-        
+        <br>
+        <br>
+        <br>
+        <a href="startPage.html" class="btn btn-default"><button style="right:40%;">Enter!</button></a>
         <script type="text/javascript" src="room_data">
         
-        function Verify () {
-            var myRoom = global.localStorage.getItem("roomVerify");
-            var myPwd  = global.localStorage.getItem("pwdVerify");
+        var myRoom = global.localStorage.getItem("roomVerify");
+        var myPwd  = global.localStorage.getItem("pwdVerify");
             
+        function Verify () {    
             if (myRoom == global.localStorage.getItem("roomNum")) {
                 if (myPwd == global.localStorage.getItem("roomPwd")) {
                    alert("yeah");

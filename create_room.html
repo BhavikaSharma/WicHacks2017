@@ -4,24 +4,31 @@
         <script type="text/javascript" src="room_data.js"></script>
         <title>pickRoom.html</title>
         <meta charset = "UTO-8" />
+        <link rel="stylesheet" href="create_room.css" type="text/css">
     </head>
     <body>
-        <h1>Enter Your Room</h1>
+        <br />
+        <br />
+        <h1 style="font-size:300%; color:#9932CC; text-align:center">Create Your Room</h1>
         <form>
-            <fieldset>
+            <fieldset style="width:410px;margin: 0px auto;">
                 <p>
-                    <label>Room number</label>
+                    <label>Room:</label>
                     <input type  = "text"
-                           id    = "roomNum" />
-                </p>
-                <p>
-                    <label>Password</label>
+                           id    = "roomNum"
+                           class = "leftAlignText1" />
+                <br />
+                    <label>Password:</label>
                     <input type  = "password"
-                           id    = "roomPwd" />
+                           id    = "roomPwd" 
+                           class = "leftAlignText1"/>
                 </p>
             </fieldset>
-            <a href="startPage.html" class="btn btn-default">OK!</a>
         </form>
+        <br>
+        <br>
+        <br>
+        <a href="startPage.html" class="btn btn-default"><button>OK!</button></a>
     </body>
     <!--<script>
         window.localStorage.setItem("roomNum", document.getElementById("roomNum").value);
