@@ -1,0 +1,136 @@
+[{
+	"title": "Which of the following is the OR operator in Java?",
+	"choices": [{
+		"label": "|",
+		"correct": false
+	}, {
+		"label": "&",
+		"correct": false
+	}, {
+		"label": "||",
+		"correct": true
+	}, {
+		"label": "&&",
+		"correct": false
+	}]
+}, {
+	"title": "Which of the following is a correct initialization syntax in Java?",
+	"choices": [{
+		"label": "integer i = 0;",
+		"correct": false
+	}, {
+		"label": "int i = 0;",
+		"correct": true
+	}, {
+		"label": "number i = 0;",
+		"correct": false
+	}, {
+		"label": "num i = 0;",
+		"correct": false
+	}]
+}, {
+	"title": "What does HTML stand for?",
+	"choices": [{
+		"label": "Hyper Text Markup Language",
+		"correct": true
+	}, {
+		"label": "Hyperlinks and Text Markup Language",
+		"correct": false
+	}, {
+		"label": "Home Tool Markup Language",
+		"correct": false
+	}, {
+		"label": "Hippos Think Monsters Lie",
+		"correct": false
+	}]
+}, {
+	"title": "What is the HTML tag for a line break?",
+	"choices": [{
+		"label": "<lb>",
+		"correct": false
+	}, {
+		"label": "<br>",
+		"correct": true
+	}, {
+		"label": "<break>",
+		"correct": false
+	}, {
+		"label": "<libr>",
+		"correct": false
+	}]
+}, {
+	"title": "Which of the following is not a valid variable name for an int?",
+	"choices": [{
+		"label": "a",
+		"correct": false
+	}, {
+		"label": "a1",
+		"correct": false
+	}, {
+		"label": "A1",
+		"correct": false
+	}, {
+		"label": "1a",
+		"correct": true
+	}]
+}, {
+	"title": "What are the values of a and b after this code runs: int main() { int a = 1, b = 1, c;  c = a++ + b; }",
+	"choices": [{
+		"label": "a = 1, b = 1",
+		"correct": false
+	}, {
+		"label": "a = 2, b = 1",
+		"correct": true
+	}, {
+		"label": "a = 1, b = 2",
+		"correct": false
+	}, {
+		"label": "a = 2, b = 2",
+		"correct": false
+	}]
+}, {
+	"title": "Which is the correct way to declare and initialize an array in Java?",
+	"choices": [{
+		"label": "int [] myList = {\"1\", \"2\", \"3\"};",
+		"correct": false
+	}, {
+		"label": "int [] myList = (5, 8, 2);",
+		"correct": false
+	}, {
+		"label": "int myList [] [] = {4,9,7,0};",
+		"correct": false
+	}, {
+		"label": "int myList [] = {4, 3, 7};",
+		"correct": true
+	}]
+}, {
+	"title": "Which of the following is the most correct about Hex Code format of CSS colors?",
+	"choices": [{
+		"label": "The first two digits represent a red value.",
+		"correct": false
+	}, {
+		"label": "The second third and fourth digits represent a green value.",
+		"correct": false
+	}, {
+		"label": "The last two digits are the blue value",
+		"correct": false
+	}, {
+		"label": "All of the above are correct",
+		"correct": true
+	}]
+}, {
+	"title": "What is the correct format for inserting an image in HTML?",
+	"choices": [{
+		"label": "<img href=\"photo.jpg\">",
+		"correct": false
+	}, {
+		"label": "<img src=\"photo.jpg\">",
+		"correct": true
+	}, {
+		"label": "<image src=\"photo.jpg\">",
+		"correct": false
+	}, {
+		"label": "<img>photo.jpg</img>",
+		"correct": false
+	}]
+}]

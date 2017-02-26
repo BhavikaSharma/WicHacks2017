@@ -14,6 +14,11 @@ let io = socketio(server);
 io.on('connection', connected);
 
 app.use(express.static(__dirname + '/client'));
+
+app.get('/', function(req, res) {
+    res.sendFile(path.join(__dirname + '/client/startPage.html'));
+});
+
 server.listen(8080, function() {
   console.log('Server connected!')
 });

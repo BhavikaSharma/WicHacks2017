@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+    <head>
+        <script type="text/javascript" src="room_data.js"></script>
+        <title>pickRoom.html</title>
+        <meta charset = "UTO-8" />
+        <link rel="stylesheet" href="create_room.css" type="text/css">
+    </head>
+    <body>
+        <br />
+        <br />
+        <h1 style="font-size:300%; color:#9932CC; text-align:center">Create Your Room</h1>
+        <form>
+            <fieldset style="width:410px;margin: 0px auto;">
+                <p>
+                    <label>Room:</label>
+                    <input type  = "text"
+                           id    = "roomNum"
+                           class = "leftAlignText1" />
+                <br />
+                    <label>Password:</label>
+                    <input type  = "password"
+                           id    = "roomPwd" 
+                           class = "leftAlignText1"/>
+                </p>
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <br>
+        <script>
+            global.localStorage.setItem("roomNum", document.getElementById("roomNum").value);
+            global.localSorage.setItem("roomPwd", document.getElementById("roomPwd").value);
+        </script>
+        <a href="startPage.html" class="btn btn-default"><button>OK!</button></a>
+    </body>
+</html>

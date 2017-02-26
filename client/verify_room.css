@@ -1,0 +1,38 @@
+h1 {
+    text-align: center;
+    color: #9932CC;
+}
+
+input {
+    size: 40;
+}
+
+fieldset { 
+  margin-left: 150%;
+  top: 350%;
+  width: 400px;
+}
+
+label{
+    display:inline-block;
+    width:100px;
+}
+
+leftAlignText {
+    text-align: left;
+    cursor: text;
+}
+
+button {
+    text-align: right;
+    float: right;
+    background-color: #FFD700;
+    font-size: 20px;
+    padding: 12px 28px;
+    border-radius: 50%;
+}
+
+button:hover {
+    background-color: #DAA520;
+    color: white;
+}
